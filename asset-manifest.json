@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/super-bank/static/css/main.2df52e43.css",
+    "main.js": "/super-bank/static/js/main.609639a0.js",
+    "static/js/453.a2b035cd.chunk.js": "/super-bank/static/js/453.a2b035cd.chunk.js",
+    "index.html": "/super-bank/index.html",
+    "main.2df52e43.css.map": "/super-bank/static/css/main.2df52e43.css.map",
+    "main.609639a0.js.map": "/super-bank/static/js/main.609639a0.js.map",
+    "453.a2b035cd.chunk.js.map": "/super-bank/static/js/453.a2b035cd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2df52e43.css",
+    "static/js/main.609639a0.js"
+  ]
+}
