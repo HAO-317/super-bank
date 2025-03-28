@@ -1,0 +1,97 @@
+
+.super-bank-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  transition: background-color 0.3s ease; 
+}
+
+.super-bank-container.dark {
+  background-color: #6B5B95;
+  color: white;
+
+}
+
+.super-bank-container.light {
+  background-color: #F5F5F5; 
+  color: black;
+}
+
+
+.theme-toggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #D3D3D3;
+  cursor: pointer;
+  font-size: 2rem;
+  background-color: #d1f9f7;
+}
+
+.theme-toggle:hover {
+  background-color: #47ff04;
+  font-weight: bold;
+  transform: scale(1.1);
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin: 20px 0;
+}
+
+.account-info {
+  background-color: #83D1FB; 
+  min-width: 50vw;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  color: black;
+  box-shadow: 2px 2px 8px black;
+}
+
+.account-info h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.account-info p {
+  font-size: 2rem;
+  margin: 10px 0;
+}
+
+input {
+  padding: 10px;
+  margin: 10px 0;
+  width: 200px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #d1f9f7;
+  cursor: pointer;
+  font-size: 1rem;
+  box-shadow: 1px 1px 8px rgb(63, 170, 216);
+}
+
+button:hover {
+  background-color: #47ff04;
+  font-weight: bold;
+  transform: scale(1.1);
+}
